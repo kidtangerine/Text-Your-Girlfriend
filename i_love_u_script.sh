@@ -1,7 +1,7 @@
 
 
 ##name in iMessage
-buddy="kate 👅💍💋"
+gf="kate 👅💍💋"
 
 n=$(cat /usr/share/dict/words | wc -l)
 word=$(cat -n /usr/share/dict/words | grep -w $(jot -r 1 1 $n) | cut -f2)
@@ -11,7 +11,7 @@ word=$(cat -n /usr/share/dict/words | grep -w $(jot -r 1 1 $n) | cut -f2)
 
 ## possible words you might want to use to make it not seem like you scripted a message to her 
 
-lovewords=("Sugar Bottom" "Pefect Face" "Round bottom" "Beautiful" "Baby" "Sapphire")
+lovewords=("Sugar Booty" "Pefect Face" "Round bottom" "Beautiful" "Baby" "Sapphire" "Angel Slayer" "Pippy Longstocky")
 
 ## count the keys in the array about and ask bash for a random number
 rand=$[ $RANDOM % ${#lovewords[@]} ]
@@ -22,6 +22,6 @@ loveword=${lovewords[$rand]}
 ## template for message 
 message="I love you, $loveword"
 
-cmd='tell application "Messages" to send "'$message'" to buddy "'$buddy'"'
+cmd='tell application "Messages" to send "'$message'" to buddy "'$gf'"'
 
 osascript -e "$cmd" 
