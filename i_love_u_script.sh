@@ -1,7 +1,7 @@
 
 
 ##name in iMessage
-buddy="ff"
+buddy="kate 👅💍💋"
 
 n=$(cat /usr/share/dict/words | wc -l)
 word=$(cat -n /usr/share/dict/words | grep -w $(jot -r 1 1 $n) | cut -f2)
